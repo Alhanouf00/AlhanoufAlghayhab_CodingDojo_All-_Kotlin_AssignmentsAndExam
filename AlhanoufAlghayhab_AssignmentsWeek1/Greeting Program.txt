@@ -1,0 +1,8 @@
+//Alhanouf Alghayhab
+
+fun main() {
+    println("Enter Your name:")
+    val name = readLine()
+    
+    println("Hello $name welcome to my program ")
+}
