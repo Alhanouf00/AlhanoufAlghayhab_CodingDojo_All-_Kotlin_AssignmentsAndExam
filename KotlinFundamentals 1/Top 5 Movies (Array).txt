@@ -1,0 +1,25 @@
+//Alhanouf Alghyhab
+
+fun main()
+{
+    val movieArray = arrayOf("","","","","")
+
+
+
+
+    for (movie in 0..4)
+    {       println ("Enter best five movie ,Your enter $movie of 5")
+
+        var Movielist = readLine()!!
+
+        movieArray[movie] = Movielist
+
+    }
+    for (movielist in 0..4)
+    {       println (" Your movies list is: ${movieArray[movielist]}")
+
+
+    }
+
+
+}

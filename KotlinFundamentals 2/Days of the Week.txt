@@ -1,0 +1,12 @@
+//Alhanouf Alghyhab
+
+fun main()
+{
+val week = mapOf(1 to "Sunday", 2 to "Monday", 3 to "Tuesday", 4 to "Wednesday" , 5 to "Thursday" ,6 to "Friday" , 7 to "Saturday")
+
+    print("Days of the Week is ")
+    for (Week in 1..7)
+    {
+        print("  ${week[Week]}  ")
+    }
+}

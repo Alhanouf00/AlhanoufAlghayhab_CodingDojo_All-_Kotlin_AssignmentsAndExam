@@ -1,0 +1,56 @@
+import java.util.*
+import kotlin.collections.ArrayList
+
+//Alhanouf Alghyhab
+// I do the bounce 
+class Country ()
+{
+    var countryName = ""
+    var capital = ""
+    val countryList = listOf<String>( "Saudi Arabia" ,"Japan" , "Germany" ,"Greece" ,"Russia" ,"China" , "South Korea","Spain","Italy","Belgium")
+    val capitalList = listOf<String>("Riyadh","Tokyo","Berlin","Athens" ,"Moscow", "Beijing","Seoul","Madrid","Rome" ,"Belgium")
+
+    fun corectCapital()
+    {
+        println (" The country is $countryName and his capital $capital")
+    }
+}
+
+fun main()
+{
+    var randomchoose = (0..9).random()
+    var country = Country()
+    var answer = ""
+    var score = 0
+    var contOrnot = ""
+    var checkIfChoose = ArrayList<Int>()
+
+    while(contOrnot !="n") {
+        score = 0
+        for (i in 0..2) {
+            randomchoose = (0..9).random()
+            if (checkIfChoose.contains(randomchoose)) {
+                randomchoose = (0..9).random()
+                continue
+            }
+            else {
+                checkIfChoose.add(randomchoose)
+                print("Whats the capital of ${country.countryList[randomchoose]}  ")
+                answer = readLine()!!
+
+                if (country.capitalList[randomchoose].equals(answer)) {
+                    println("Awesome That is Correct ")
+                    score += 1
+                } else {
+                    println("That is incorrect the capital of  ${country.countryList[randomchoose]} is ${country.capitalList[randomchoose]} ")
+                }
+            }
+        }
+        println("The Game is finish and your score is $score out of 3")
+        print("If you want play again enter y if not enter n ")
+        contOrnot = readLine()!!
+        checkIfChoose.clear()
+    }
+}
+
+

@@ -1,0 +1,26 @@
+//Alhanouf Alghayhab
+
+fun main() {
+    
+    var randomNumber = (1..10).random()
+
+    println("Guess number between 0 and 10:")
+    try{
+    var number = readLine()!!.toInt()
+        
+        if(number == randomNumber)
+        {
+        println("You got it!")
+        }
+        else
+        {println("Wrong geuss! the answer was $randomNumber ")
+        println("Game Over") 
+        
+        }
+        
+        
+    } catch (e: Exception) {
+        println("Please enter numbers only")
+    }  
+
+}

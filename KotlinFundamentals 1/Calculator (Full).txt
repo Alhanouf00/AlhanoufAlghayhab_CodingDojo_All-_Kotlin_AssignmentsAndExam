@@ -1,0 +1,64 @@
+fun addition(number1: Int , number2: Int)
+{
+var total = number1 + number2 
+print("$number1+$number2 = $total")
+
+
+
+}
+
+fun subtraction(number1: Int , number2: Int)
+{
+var subtrac = number1 - number2 
+print("$number1-$number2 = $subtrac")
+}
+
+
+fun division(number1: Int , number2: Int)
+{
+if (number2 == 0)
+{
+println ("cannot divide by 0")
+
+}
+else
+{
+var div = number1 / number2 
+print("$number1/$number2 = $div")
+4
+
+}
+
+}
+
+
+fun multiplication(number1: Int , number2: Int)
+{
+var multip = number1 * number2 
+print("$number1*$number2 = $multip")
+}
+
+fun main()
+{
+print ("Enter your first number ")
+  var number1 = readLine()!!.toInt()
+  
+  println("$number1")
+  
+  print ("Enter your operator number ")
+  var opre = readLine()
+println("$number1$opre")
+  print ("Enter your seconde number ")
+  var number2 = readLine()!!.toInt()
+  
+  
+when 
+{
+  opre == "+" -> addition(number1,number2)
+  opre == "-" -> subtraction(number1,number2)
+  opre == "*" -> multiplication(number1,number2)
+  opre == "/" -> division(number1,number2)
+  
+}
+
+}

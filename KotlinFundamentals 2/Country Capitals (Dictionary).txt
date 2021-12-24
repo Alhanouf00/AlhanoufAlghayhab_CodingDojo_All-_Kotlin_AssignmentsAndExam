@@ -1,0 +1,21 @@
+//Alhanouf Alghyhab
+
+fun main()
+{
+    val countryAndcapital = mutableMapOf<String,String>()
+  var country = ""
+   var capital = ""
+
+   for (i in 0..2)
+   {
+       print(" Enter a country ")
+       country = readLine()!!
+
+       print(" Enter a capital ")
+       capital = readLine()!!
+       countryAndcapital.put(country,capital)
+   }
+
+for(key in countryAndcapital.keys)
+    println(" The country is ${key} and his capital ${countryAndcapital[key]} ")
+}

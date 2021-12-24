@@ -1,0 +1,28 @@
+//Alhanouf Alghyhab
+
+fun main()
+{
+    val countryAndCapitals = arrayListOf<ArrayList<String>>()
+
+    var country: String = ""
+    var capital: String = ""
+
+    for(Capital in 0..2)
+
+    {
+        print("Enter a country ")
+        country = readLine()!!
+
+        print("Enter a capital ")
+        capital = readLine()!!
+
+        countryAndCapitals.add(arrayListOf(country,capital))
+
+    }
+    for(Capital in 0..2)
+
+    {
+        print(" Country of ${countryAndCapitals[Capital][0] } is ${countryAndCapitals[Capital][1]}  ")
+    }
+
+}

@@ -1,0 +1,22 @@
+//Alhanouf Alghyhab
+
+fun main()
+{
+   val country = listOf("Saudi Arabia" , "Japan" , "Brazil")
+    val capital = arrayOf("","","")
+
+    for(Capital in 0..2)
+
+    {
+        print("Capital of ${country[Capital].toString()} ")
+
+        capital[Capital] =readLine()!!
+
+    }
+    for(Capital in 0..2)
+
+    {
+        print("Capital of ${country[Capital].toString()} is  ${capital[Capital].toString()}  ")
+    }
+    
+}

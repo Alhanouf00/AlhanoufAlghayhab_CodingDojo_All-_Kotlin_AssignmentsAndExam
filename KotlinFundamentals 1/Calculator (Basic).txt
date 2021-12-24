@@ -1,0 +1,56 @@
+//Alhanouf Alghyhab
+
+// Iface problem with check
+fun calc (number1: Int,number2: Int)
+{
+    var total = number1+number2
+    println("$number1+$number2 = $total")
+
+}
+fun check (number: String):Int
+{
+  try {
+      return number.toInt()
+
+  }catch (e:Exception)
+  {
+      return 0
+  }
+
+
+}
+
+fun main()
+{
+
+    print ("Enter your first number ")
+    var number1 = check(readLine()!!)
+
+    print ("Enter your seconde number ")
+    var number2 = check(readLine()!!)
+    calc(number1 ,number2)
+    print ("would you like to continue ? (y/n) : ")
+    var answer = readLine()
+    while (answer != "n" )
+
+    {
+
+
+
+        print ("Enter your first number ")
+        number1 = check(readLine()!!)
+
+
+        print ("Enter your seconde number ")
+        number2 = check(readLine()!!)
+
+        calc(number1 ,number2)
+
+
+        print ("would you like to continue ? (y/n) : ")
+        answer = readLine()
+
+
+    }
+    println("The calculator is stop")
+}

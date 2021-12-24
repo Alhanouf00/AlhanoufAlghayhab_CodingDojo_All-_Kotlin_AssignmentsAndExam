@@ -1,0 +1,59 @@
+//Alhanouf Alghayhab
+
+fun main() {
+    
+    var randomNumber = (1..10).random()
+    
+    var counter:Int  = 0
+    var numberhold = 0
+   
+
+    println("Guess number between 0 and 10 or write quit to stop a game:")
+    
+        var number = readLine()
+        while (number != "quit")
+        
+        {
+            randomNumber = (1..10).random()
+            
+            if (number == "quit")
+            {
+                
+                break
+            }
+            
+            else 
+            {
+        
+            if (counter == 3)
+                {
+                    break
+                }
+        numberhold = number!!.toInt()
+        when 
+        {
+            
+        numberhold == randomNumber -> { println("You got it!")
+        
+      println("Write quit if you want stop a game")
+      counter++
+            number = readLine()
+        }
+       
+        
+         numberhold != randomNumber ->  {println("Wrong geuss! the answer was $randomNumber ")
+            
+             println("Game Over") 
+              println("Write quit if you want stop a game")
+              number = readLine()
+         }
+              
+ 
+              else -> println("Nothing")
+        }
+       
+        }
+        }
+        println("You are quit the game")
+     
+}
