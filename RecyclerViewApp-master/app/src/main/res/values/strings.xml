@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlhanoufAlghayhab_CodingDojo_RecyclerViewApp</string>
+    <string name="submit">Submit</string>
+    <string name="here_test_of_recycler_view">Here Test of Recycler View</string>
+</resources>
