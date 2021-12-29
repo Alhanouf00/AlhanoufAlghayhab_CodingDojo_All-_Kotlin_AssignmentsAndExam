@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="store"
+        android:id="@+id/store"
+        app:showAsAction="never" />
+    <item android:title="order"
+        android:id="@+id/order"
+        app:showAsAction="never"/>
+    <item
+        android:title="cart"
+        android:id="@+id/cart"
+        app:showAsAction="never"/>
+</menu>

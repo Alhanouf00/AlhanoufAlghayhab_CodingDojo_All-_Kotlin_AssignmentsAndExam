@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MenusApp</string>
+    <string name="store">Store</string>
+    <string name="order">Order</string>
+    <string name="cart">Cart</string>
+</resources>
