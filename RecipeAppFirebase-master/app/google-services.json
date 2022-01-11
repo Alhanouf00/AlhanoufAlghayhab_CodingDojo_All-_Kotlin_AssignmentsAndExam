@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529221035689",
+    "firebase_url": "https://recipeapp-1fac9-default-rtdb.firebaseio.com",
+    "project_id": "recipeapp-1fac9",
+    "storage_bucket": "recipeapp-1fac9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529221035689:android:24951766e9acd25373abb8",
+        "android_client_info": {
+          "package_name": "com.example.alhanoufalghayhab_codingdojo_recipeappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529221035689-d2pa9fu4bt5mkcrftm7a322reb78ktfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw0ACyzTac1Bxea6NUcZ1wIdTyO_LInqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529221035689-d2pa9fu4bt5mkcrftm7a322reb78ktfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
