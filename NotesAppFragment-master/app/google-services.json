@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606606458971",
+    "project_id": "noteappfragment-d72b1",
+    "storage_bucket": "noteappfragment-d72b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606606458971:android:01a8a2bf688cf43c42bf7e",
+        "android_client_info": {
+          "package_name": "com.example.alhanoufalghayhab_codingdojo_notesappfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606606458971-csv81bos6bfn8bfdhpnmfkpvmj4tf9l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFpK3NOTUw-cLRgBZNblKdjQGMRRcRuuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606606458971-csv81bos6bfn8bfdhpnmfkpvmj4tf9l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
