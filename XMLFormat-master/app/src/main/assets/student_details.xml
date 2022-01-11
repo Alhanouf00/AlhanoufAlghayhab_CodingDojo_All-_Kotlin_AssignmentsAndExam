@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StudentDetails>
+
+    <Student>
+        <id>1</id>
+        <name>Tom</name>
+        <grade>50</grade>
+    </Student>
+
+    <Student>
+        <id>2</id>
+        <name>Fred</name>
+        <grade>60</grade>
+    </Student>
+
+    <Student>
+        <id>3</id>
+        <name>John</name>
+        <grade>70</grade>
+    </Student>
+
+    <Student>
+        <id>4</id>
+        <name>Mike</name>
+        <grade>45</grade>
+    </Student>
+
+    <Student>
+        <id>5</id>
+        <name>Sara</name>
+        <grade>55.5</grade>
+    </Student>
+
+    <Student>
+        <id>6</id>
+        <name>Jane</name>
+        <grade>42</grade>
+    </Student>
+
+    <Student>
+        <id>7</id>
+        <name>Mona</name>
+        <grade>30</grade>
+    </Student>
+
+    <Student>
+        <id>8</id>
+        <name>Sam</name>
+        <grade>60.5</grade>
+    </Student>
+
+    <Student>
+        <id>9</id>
+        <name>Jack</name>
+        <grade>70</grade>
+    </Student>
+
+    <Student>
+        <id>10</id>
+        <name>Bob</name>
+        <grade>50</grade>
+    </Student>
+
+    <Student>
+        <id>11</id>
+        <name>Don</name>
+        <grade>60</grade>
+    </Student>
+
+    <Student>
+        <id>12</id>
+        <name>Ben</name>
+        <grade>70</grade>
+    </Student>
+
+</StudentDetails>
