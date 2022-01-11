@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#82B1FF"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/seven"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/eight"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/nine"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/divide"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/four"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/five"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/six"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/multi"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="*" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/one"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/two"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/three"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/minus"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pos"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/zero"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/dot"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="." />
+
+            <Button
+                android:id="@+id/add"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/del"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="DEL" />
+
+            <Button
+                android:id="@+id/clear"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/equal"
+                android:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
