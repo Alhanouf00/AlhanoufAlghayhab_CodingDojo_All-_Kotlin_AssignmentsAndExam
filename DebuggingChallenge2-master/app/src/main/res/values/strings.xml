@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Debug2</string>
+    <string name="capital_string">Capital</string>
+    <string name="sn_string">S/N</string>
+    <string name="enter_country_capital">Enter Country Capital</string>
+    <string name="enter_country_name">Enter Country Name</string>
+    <string name="submit">Submit</string>
+</resources>
